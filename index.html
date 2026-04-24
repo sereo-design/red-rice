@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紅米砂鍋粥 赤い米｜台北車站 現煮砂鍋粥・精緻熱炒</title>
+    <meta name="description" content="紅米砂鍋粥（赤い米）位於台北大同區長安西路150號，鄰近台北車站。主打現煮砂鍋粥、精緻熱炒與小酌，營業時間 11:30-14:00、17:00-24:00，週一公休。">
+    <meta name="keywords" content="紅米砂鍋粥,赤い米,台北車站,砂鍋粥,熱炒,聚餐,長安西路,蟹膏砂鍋粥">
+
+    <meta property="og:title" content="紅米砂鍋粥 赤い米｜台北車站 現煮砂鍋粥・精緻熱炒">
+    <meta property="og:description" content="台北大同區長安西路，主打現煮砂鍋粥與精緻熱炒，非凡新聞專訪。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_TW">
+    <meta property="og:image" content="紅米/S__177586241_0.jpg">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%238B2C1F'/%3E%3Ctext x='50%25' y='55%25' font-family='serif' font-size='38' font-weight='900' fill='%23F5F1E8' text-anchor='middle'%3E紅%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-rice: #F5F1E8;
+            --bg-rice-deep: #EDE6D3;
+            --brand-crimson: #8B2C1F;
+            --brand-crimson-hover: #6E1E14;
+            --accent-gold: #C89B3C;
+            --ink: #1C1817;
+            --ink-soft: #5C4F48;
+            --white: #FFFFFF;
+            --border-soft: #D9CFC0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+        body {
+            background-color: var(--bg-rice);
+            color: var(--ink);
+            font-family: 'Noto Sans TC', sans-serif;
+            line-height: 1.8;
+            overflow-x: hidden;
+            font-weight: 300;
+        }
+        h1, h2, h3 {
+            font-family: 'Noto Serif TC', serif;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        a { color: inherit; text-decoration: none; }
+        img { max-width: 100%; display: block; }
+
+        nav {
+            padding: 1.25rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+            background-color: rgba(245, 241, 232, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-soft);
+        }
+        .logo {
+            font-family: 'Noto Serif TC', serif;
+            font-size: 1.4rem;
+            font-weight: 900;
+            color: var(--brand-crimson);
+            letter-spacing: 4px;
+        }
+        .logo-sub {
+            font-size: 0.7rem;
+            letter-spacing: 3px;
+            color: var(--ink-soft);
+            display: block;
+            font-family: 'Noto Sans TC', sans-serif;
+            font-weight: 400;
+            margin-top: 2px;
+        }
+        .nav-menu { display: flex; gap: 2.5rem; align-items: center; }
+        .nav-menu a {
+            font-size: 0.95rem;
+            color: var(--ink);
+            letter-spacing: 2px;
+            transition: color 0.3s;
+        }
+        .nav-menu a:hover, .nav-menu a.active { color: var(--brand-crimson); }
+        .nav-book {
+            background-color: var(--brand-crimson);
+            color: var(--white) !important;
+            padding: 0.5rem 1.3rem;
+            border-radius: 2px;
+            font-weight: 500;
+        }
+        .nav-book:hover {
+            background-color: var(--brand-crimson-hover);
+        }
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--ink);
+            cursor: pointer;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            min-height: 100vh;
+            padding: 120px 5% 80px;
+            gap: 5rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .hero-content { flex: 1; }
+        .hero-tag {
+            font-size: 0.85rem;
+            letter-spacing: 6px;
+            color: var(--accent-gold);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+        }
+        .hero h1 {
+            font-size: 4rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            color: var(--ink);
+        }
+        .hero-sub {
+            display: block;
+            font-size: 1.8rem;
+            color: var(--brand-crimson);
+            margin-top: 0.5rem;
+            letter-spacing: 8px;
+        }
+        .hero-desc {
+            font-size: 1.1rem;
+            margin: 2rem 0 2.5rem;
+            max-width: 480px;
+            color: var(--ink-soft);
+            line-height: 2;
+        }
+        .hero-cta { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+        .btn {
+            display: inline-block;
+            padding: 0.95rem 2.5rem;
+            font-weight: 500;
+            letter-spacing: 3px;
+            border-radius: 2px;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+            cursor: pointer;
+            border: none;
+            font-family: inherit;
+        }
+        .btn-primary { background-color: var(--brand-crimson); color: var(--white); }
+        .btn-primary:hover {
+            background-color: var(--brand-crimson-hover);
+            transform: translateY(-2px);
+        }
+        .btn-outline {
+            background-color: transparent;
+            color: var(--ink);
+            border: 1.5px solid var(--ink);
+        }
+        .btn-outline:hover {
+            background-color: var(--ink);
+            color: var(--bg-rice);
+        }
+
+        .hero-image { flex: 1.1; position: relative; }
+        .hero-image img {
+            width: 100%;
+            height: 75vh;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+        .hero-image::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 75vh;
+            border: 2px solid var(--accent-gold);
+            top: 20px;
+            left: 20px;
+            z-index: -1;
+            border-radius: 2px;
+        }
+
+        .tagline {
+            padding: 100px 5%;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .tagline-divider {
+            width: 40px;
+            height: 2px;
+            background-color: var(--accent-gold);
+            margin: 0 auto 2rem;
+        }
+        .tagline h2 {
+            font-size: 2.2rem;
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+        }
+        .tagline p {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section-header { text-align: center; margin-bottom: 4rem; }
+        .section-label {
+            font-size: 0.85rem;
+            letter-spacing: 6px;
+            color: var(--accent-gold);
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+        }
+        .section-header h2 { font-size: 2.2rem; }
+        .section-header p {
+            color: var(--ink-soft);
+            max-width: 600px;
+            margin: 1rem auto 0;
+            font-size: 0.95rem;
+        }
+
+        .congee { padding: 100px 5%; background-color: var(--bg-rice-deep); }
+        .congee-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .dish-card {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 4 / 5;
+            background-color: var(--ink);
+        }
+        .dish-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s;
+        }
+        .dish-card:hover img { transform: scale(1.05); opacity: 0.9; }
+        .dish-card-label {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem 1.2rem;
+            background: linear-gradient(to top, rgba(28, 24, 23, 0.9), transparent);
+            color: var(--white);
+        }
+        .dish-card-label h3 { font-size: 1.1rem; letter-spacing: 2px; margin-bottom: 0.2rem; }
+        .dish-card-label span {
+            font-size: 0.75rem;
+            color: var(--accent-gold);
+            letter-spacing: 2px;
+        }
+
+        .stirfry { padding: 100px 5%; }
+        .stirfry-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .sides { padding: 100px 5%; background-color: var(--bg-rice-deep); }
+        .sides-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-cta { text-align: center; margin-top: 3rem; }
+
+        .media {
+            padding: 100px 5%;
+            max-width: 1100px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .media-video {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            background-color: var(--ink);
+            margin: 2rem 0;
+        }
+        .media-video iframe { width: 100%; height: 100%; border: none; }
+        .media-caption {
+            color: var(--ink-soft);
+            font-size: 0.95rem;
+            max-width: 600px;
+            margin: 0 auto 3rem;
+            line-height: 2;
+        }
+        .media-caption strong { color: var(--brand-crimson); font-weight: 500; }
+        .press-strip {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2.5rem;
+            max-width: 900px;
+            margin: 0 auto 2.5rem;
+            padding-top: 2.5rem;
+            border-top: 1px solid var(--border-soft);
+        }
+        .press-item {
+            color: var(--ink-soft);
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+        .press-item:hover { color: var(--brand-crimson); }
+
+        .visit { padding: 100px 5%; background-color: var(--bg-rice-deep); }
+        .visit-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: stretch;
+        }
+        .visit-map {
+            aspect-ratio: 4 / 3;
+            border: 1px solid var(--border-soft);
+        }
+        .visit-map iframe { width: 100%; height: 100%; border: none; }
+        .visit-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .visit-info h2 { font-size: 2rem; margin-bottom: 2rem; }
+        .visit-block {
+            margin-bottom: 1.8rem;
+            padding-bottom: 1.8rem;
+            border-bottom: 1px solid var(--border-soft);
+        }
+        .visit-block:last-of-type { border-bottom: none; }
+        .visit-block h3 {
+            font-size: 0.8rem;
+            letter-spacing: 4px;
+            color: var(--accent-gold);
+            margin-bottom: 0.6rem;
+            font-weight: 500;
+        }
+        .visit-block p, .visit-block a {
+            color: var(--ink);
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+        .visit-block a { color: var(--brand-crimson); font-weight: 500; }
+        .visit-block a:hover { text-decoration: underline; }
+        .visit-actions {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        footer {
+            background-color: var(--ink);
+            color: var(--bg-rice);
+            padding: 3rem 5% 2rem;
+        }
+        .footer-inner { max-width: 1200px; margin: 0 auto; text-align: center; }
+        .footer-recruit {
+            padding: 1rem 1.5rem;
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            display: inline-block;
+            margin-bottom: 2rem;
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+        }
+        .footer-recruit a {
+            color: var(--accent-gold);
+            font-weight: 500;
+            text-decoration: underline;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: var(--bg-rice);
+            font-size: 0.9rem;
+            letter-spacing: 2px;
+            opacity: 0.8;
+        }
+        .footer-links a:hover { opacity: 1; }
+        .footer-copy {
+            font-size: 0.8rem;
+            color: var(--border-soft);
+            opacity: 0.6;
+            letter-spacing: 2px;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(217, 207, 192, 0.15);
+        }
+
+        @media (max-width: 992px) {
+            .menu-toggle { display: block; }
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background-color: var(--bg-rice);
+                flex-direction: column;
+                gap: 0;
+                padding: 1rem 0;
+                border-bottom: 1px solid var(--border-soft);
+            }
+            .nav-menu.open { display: flex; }
+            .nav-menu a { padding: 0.8rem 5%; width: 100%; text-align: center; }
+            .nav-book { margin: 0.5rem 5%; width: calc(100% - 10%); }
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding-top: 100px;
+                gap: 3rem;
+            }
+            .hero h1 { font-size: 2.6rem; }
+            .hero-sub { font-size: 1.4rem; letter-spacing: 6px; }
+            .hero-desc { margin-left: auto; margin-right: auto; }
+            .hero-cta { justify-content: center; }
+            .hero-image { width: 100%; }
+            .hero-image img, .hero-image::after { height: 55vh; }
+            .tagline h2 { font-size: 1.6rem; }
+            .congee-grid { grid-template-columns: repeat(2, 1fr); }
+            .stirfry-grid { grid-template-columns: repeat(2, 1fr); }
+            .sides-grid { grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+            .visit-inner { grid-template-columns: 1fr; }
+        }
+
+        @media (max-width: 560px) {
+            .hero h1 { font-size: 2.2rem; }
+            .section-header h2 { font-size: 1.6rem; }
+            .congee-grid, .stirfry-grid, .sides-grid { grid-template-columns: 1fr; }
+            .btn { padding: 0.9rem 2rem; font-size: 0.9rem; }
+            .hero-cta { flex-direction: column; }
+            .hero-cta .btn { width: 100%; }
+            .press-strip { gap: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo">
+            紅米 · 赤い米
+            <span class="logo-sub">HONG MI</span>
+        </a>
+        <button class="menu-toggle" aria-label="選單">☰</button>
+        <div class="nav-menu">
+            <a href="index.html" class="active">首頁</a>
+            <a href="menu.html">菜單</a>
+            <a href="about.html">關於・媒體</a>
+            <a href="contact.html">訂位資訊</a>
+            <a href="https://inline.app/booking/-OPFA83qOxMmBtu5id9l:inline-live-3/-OPFA8Bgdj3aZIU7oRiw" target="_blank" rel="noopener" class="nav-book">線上訂位</a>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-tag">台北車站 · 長安西路</p>
+            <h1>紅米砂鍋粥<span class="hero-sub">赤い米</span></h1>
+            <p class="hero-desc">現煮砂鍋粥 × 精緻熱炒 × 小酌<br>在乾淨明亮的空間裡，好好吃一頓飯。</p>
+            <div class="hero-cta">
+                <a href="https://inline.app/booking/-OPFA83qOxMmBtu5id9l:inline-live-3/-OPFA8Bgdj3aZIU7oRiw" target="_blank" rel="noopener" class="btn btn-primary">立即訂位</a>
+                <a href="menu.html" class="btn btn-outline">查看菜單</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="紅米/S__177586241_0.jpg" alt="紅米砂鍋粥招牌料理">
+        </div>
+    </section>
+
+    <section class="tagline">
+        <div class="tagline-divider"></div>
+        <h2>每一鍋粥，都是現點現煮</h2>
+        <p>以台灣紅米為底，搭配鮮活海鮮與當季食材，從粥到熱炒，都是剛起鍋的溫度。</p>
+    </section>
+
+    <section class="congee">
+        <div class="section-header">
+            <p class="section-label">SIGNATURE CONGEE</p>
+            <h2>招牌砂鍋粥</h2>
+            <p>四種口味，每一鍋都是現點現煮</p>
+        </div>
+        <div class="congee-grid">
+            <div class="dish-card">
+                <img src="紅米/S__177586241_0.jpg" alt="招牌砂鍋粥">
+                <div class="dish-card-label">
+                    <h3>招牌砂鍋粥</h3>
+                    <span>SIGNATURE</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586239_0.jpg" alt="招牌砂鍋粥">
+                <div class="dish-card-label">
+                    <h3>招牌砂鍋粥</h3>
+                    <span>SIGNATURE</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586242_0.jpg" alt="清湯砂鍋">
+                <div class="dish-card-label">
+                    <h3>清湯砂鍋</h3>
+                    <span>CLEAR BROTH</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586240_0.jpg" alt="養生燉湯">
+                <div class="dish-card-label">
+                    <h3>養生燉湯</h3>
+                    <span>HERBAL BROTH</span>
+                </div>
+            </div>
+        </div>
+        <div class="section-cta">
+            <a href="menu.html" class="btn btn-outline">查看完整菜單</a>
+        </div>
+    </section>
+
+    <section class="stirfry">
+        <div class="section-header">
+            <p class="section-label">STIR-FRY</p>
+            <h2>精緻熱炒</h2>
+            <p>從經典台菜到川式辛香，每一道都有獨特風味</p>
+        </div>
+        <div class="stirfry-grid">
+            <div class="dish-card">
+                <img src="紅米/S__177586238_0.jpg" alt="招牌料理">
+                <div class="dish-card-label">
+                    <h3>招牌料理</h3>
+                    <span>SIGNATURE</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586237_0.jpg" alt="清蒸料理">
+                <div class="dish-card-label">
+                    <h3>清蒸料理</h3>
+                    <span>STEAMED</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586227_0.jpg" alt="避風塘風味">
+                <div class="dish-card-label">
+                    <h3>避風塘風味</h3>
+                    <span>TYPHOON SHELTER</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586231_0.jpg" alt="三杯料理">
+                <div class="dish-card-label">
+                    <h3>三杯料理</h3>
+                    <span>THREE-CUP STYLE</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586232_0.jpg" alt="爆炒料理">
+                <div class="dish-card-label">
+                    <h3>爆炒料理</h3>
+                    <span>STIR-FRY</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586230_0.jpg" alt="砂鍋料理">
+                <div class="dish-card-label">
+                    <h3>砂鍋料理</h3>
+                    <span>CLAY POT</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sides">
+        <div class="section-header">
+            <p class="section-label">SIDES & VEGETABLES</p>
+            <h2>時蔬與小菜</h2>
+            <p>清爽配菜，平衡整桌風味</p>
+        </div>
+        <div class="sides-grid">
+            <div class="dish-card">
+                <img src="紅米/S__177586210_0.jpg" alt="時令青蔬">
+                <div class="dish-card-label">
+                    <h3>時令青蔬</h3>
+                    <span>SEASONAL GREENS</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586213_0.jpg" alt="蛋類料理">
+                <div class="dish-card-label">
+                    <h3>蛋類料理</h3>
+                    <span>EGG DISH</span>
+                </div>
+            </div>
+            <div class="dish-card">
+                <img src="紅米/S__177586265_0.jpg" alt="精選料理">
+                <div class="dish-card-label">
+                    <h3>精選料理</h3>
+                    <span>FEATURED</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="media">
+        <div class="section-header">
+            <p class="section-label">MEDIA FEATURE</p>
+            <h2>媒體報導</h2>
+        </div>
+        <div class="media-video">
+            <iframe src="https://www.youtube.com/embed/Zp_EwVhBzZs" title="非凡大探索 紅米砂鍋粥" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="media-caption">
+            <strong>非凡新聞・非凡大探索</strong><br>
+            尚青活海鮮・現煮砂鍋粥<br>
+            主持人 賴家瑩｜2026.03.15 首播
+        </p>
+        <div class="press-strip">
+            <a href="https://blake.com.tw/blog/post/hong-mi" target="_blank" rel="noopener" class="press-item">布雷克的出走旅行視界</a>
+            <a href="https://gurunews.tw/red-rice/" target="_blank" rel="noopener" class="press-item">包子爸の食尚攝影手札</a>
+            <a href="https://hellokids.tw/posts/5z9/hongmi" target="_blank" rel="noopener" class="press-item">李孩好媽</a>
+            <a href="https://travelearth195.com/hongmi/" target="_blank" rel="noopener" class="press-item">1000CC 去旅行</a>
+            <a href="https://rlaidiary.com/red-rice/" target="_blank" rel="noopener" class="press-item">阿萊日記</a>
+        </div>
+        <a href="about.html" class="btn btn-outline">更多媒體報導</a>
+    </section>
+
+    <section class="visit">
+        <div class="section-header">
+            <p class="section-label">VISIT US</p>
+            <h2>前來用餐</h2>
+        </div>
+        <div class="visit-inner">
+            <div class="visit-map">
+                <iframe
+                    src="https://maps.google.com/maps?q=25.0508716,121.5166904&hl=zh-TW&z=17&output=embed"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="visit-info">
+                <div class="visit-block">
+                    <h3>ADDRESS</h3>
+                    <p><a href="https://maps.google.com/?q=台北市大同區長安西路150號1樓" target="_blank" rel="noopener">台北市大同區長安西路 150 號 1 樓</a></p>
+                </div>
+                <div class="visit-block">
+                    <h3>HOURS</h3>
+                    <p>午餐　11:30 — 14:00<br>晚餐　17:00 — 24:00<br>週一公休</p>
+                </div>
+                <div class="visit-block">
+                    <h3>PHONE</h3>
+                    <p><a href="tel:0225556787">02 - 2555 - 6787</a></p>
+                </div>
+                <div class="visit-block">
+                    <h3>TRANSIT</h3>
+                    <p>台北車站 Y7 出口　步行 4 分鐘<br>中山站 6 號出口　步行 7 分鐘</p>
+                </div>
+                <div class="visit-actions">
+                    <a href="https://inline.app/booking/-OPFA83qOxMmBtu5id9l:inline-live-3/-OPFA8Bgdj3aZIU7oRiw" target="_blank" rel="noopener" class="btn btn-primary">線上訂位</a>
+                    <a href="tel:0225556787" class="btn btn-outline">電話訂位</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-recruit">
+                紅米誠徵　外場 / 內場夥伴　｜　洽 <a href="tel:0225556787">02-2555-6787</a>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">首頁</a>
+                <a href="menu.html">菜單</a>
+                <a href="about.html">關於・媒體</a>
+                <a href="contact.html">訂位資訊</a>
+                <a href="https://inline.app/booking/-OPFA83qOxMmBtu5id9l:inline-live-3/-OPFA8Bgdj3aZIU7oRiw" target="_blank" rel="noopener">線上訂位</a>
+            </div>
+            <p class="footer-copy">
+                © 2026 紅米砂鍋粥 赤い米　｜　Site by Sereo
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector('.menu-toggle');
+        const menu = document.querySelector('.nav-menu');
+        if (toggle && menu) {
+            toggle.addEventListener('click', () => {
+                menu.classList.toggle('open');
+            });
+        }
+    </script>
+
+</body>
+</html>
